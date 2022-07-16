@@ -1,0 +1,336 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: white;
+    width: 360px;
+    height: 800px;
+    border-radius: 25px;
+}
+.main-page-div{
+    background-color: white;
+    padding-bottom: 120px;
+}
+.main-page{
+    background-color: #4A7185;
+    position: relative;
+    border: 12px solid #4A7185;
+}
+
+.nav-bar{
+    position: fixed;
+    bottom: 0%;
+    border: 12px solid white;
+    background-color: white;
+    width: 100%;
+}
+.nav-btn{
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #4A7185;
+    opacity: 100%;
+    color: white;
+    padding: 14px;
+}
+li{
+    padding: 13px;
+}
+.menu-button1{
+    background-color: white;
+    color: #1B3645;
+    position: absolute;
+    left: 12px;
+    margin-top: 22px;
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+    border: 0;
+}
+.main-head{
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 46px;
+    color: #FFFFFF;
+    padding-top: 95px;
+    padding-left: 12px;
+}
+.main-head2{
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.menu-button2{
+    background-color: white;
+    color: #1B3645;
+    position: absolute;
+    right: 12px;
+    margin-top: 22px;
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+    border: 0;
+}
+.main-scroll{
+    padding-top: 15px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+ .main-scroll::-webkit-scrollbar {
+     display: none;  
+ }
+.scroll-btn1{
+    padding: 5px;
+    border-radius: 10px;
+    color: #1B3645;
+    background-color: #FFFFFF;
+    width: fit-content;
+    text-align: center;
+    margin: 10px;
+    border: 0;
+}
+.btn-span{
+    padding: 5px;
+}
+.btn-text{
+    font-family: 'Sansita';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.main-feed-img1{
+    height: fit-content;
+    width: 120px;
+    border: 30px solid rgb(255, 255, 255,0.8);
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.feed-data1{
+    padding: 1px 1px 1px 80px;
+}
+.feed-data2{
+    padding: 1px 5px 1px 1px ;
+}
+.feed-data3{
+    padding: 1px 100px 1px 1px;
+}
+.feed-btn{
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #4A7185;
+    opacity: 100%;
+    color: white;
+}
+.grp-head{
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 46px;
+    color: #FFFFFF;
+    padding-top: 45px;
+    padding-left: 12px;
+}
+.grp-flex{
+    display: flex;
+    background-color:rgba(255, 255, 255, 0.8) ;
+    border-radius: 10px;
+    margin:35px 13px 13px 13px;
+    border: 0;
+    width: 310px;
+    padding:10px;
+}
+.grp-flex-img1{
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+.grp-flex-img2{
+    margin-top: 27px;
+    margin-left: 20px;
+    
+}
+.grp-flex-img3{
+    margin-top: 27px;
+    margin-left: 30px;
+    
+}
+.grp-flex-txt1{
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1B3645;
+    margin:10px 15px 5px 15px;
+}
+.grp-flex-txt2{
+    font-family: 'Sansita';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1B3645;
+    margin-left: 15px;
+}
+.grp-flex-img-div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #1b3645;
+    margin-top: 5px;
+}
+.msg-btn-text{   
+    padding-left: 10px;
+    border-radius: 10px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 5px;
+}
+.msg-btn{
+    padding: 5px;
+    border-radius: 10px;
+    color: #1B3645;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin: 13px;
+    border: 0;
+    width: 310px;
+}
+.msg-flex{
+    display: flex;
+    background-color:rgba(255, 255, 255, 0.8) ;
+    border-radius: 10px;
+    margin: 13px;
+    border: 0;
+    width: 310px;
+    padding: 10px;
+}
+.msg-flex-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.msg-flex-txt{
+    font-family: 'Sansita';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #1B3645;
+    padding: 13px 10px 10px 10px; 
+}
+.msg-flex-num{
+    padding: 5px 13px;
+    background-color: #4A7185;
+    color: white;
+    border-radius: 50px;
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 17px;
+    height: 35px;
+    margin-top: 7px;
+}
+.prof-head{
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 46px;
+    color: #FFFFFF;
+    padding-top: 30px;
+    padding-left: 12px;
+}
+.prof-img{
+    margin-top: 35px;
+    border: 10px solid rgb(255, 255, 255,0.8);
+    width: 180px;
+    height: 179.05px;
+    background: url(photo-1511485977113-f34c92461ad9.jpg);
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.prof-name{
+    font-family: 'Sansita';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    background-color: rgb(255, 255, 255,0.8);
+    border-radius: 20px;
+    margin-top: 25px;
+    width: 165px;
+    color:#1B3645 ;
+    padding-bottom: 2.5px;
+    text-align: center;
+    align-items: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.prof-head2{
+    margin-top: 30px;
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding-left: 12px;
+}
+.prof-intrst{
+    font-family: 'Sansita';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    color: #1B3645;
+    padding: 15px 30px 0 30px;
+    word-spacing: 10px;
+}
+.prof-conn{
+    font-family: 'Sansita';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.045em;
+    color: #1B3645;
+    padding: 10px 65px 15px 30px;
+    margin: 0;
+}
+.prof-conn-table{
+    background-color: rgb(255, 255, 255,0.8) ;
+    border-radius: 10px;
+    margin: 35px 12px;
+}
+.prof-conn-num{
+    font-family: 'Sansita';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #4A7185;
+    border-radius: 100px;
+    padding:10px 15px 15px 15px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+    
